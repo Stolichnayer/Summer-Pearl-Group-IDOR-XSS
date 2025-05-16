@@ -1,5 +1,5 @@
-# Summer Pearl Group - Vacation Rental Management Platform
-## Insecure Direct Object Reference (IDOR) and Cross-Site Scripting (XSS) Chain
+# Summer Pearl Group - Vacation Rental Management Platform Vulnerability
+## Chained IDOR and Stored XSS Vulnerability
 
 ## 📜 Description
 **Summer Pearl Group Vacation Rental Management Platform** versions prior to **1.0.1** suffer from an **Insecure Direct Object reference (IDOR)** vulnerability in the listing management functionality. Authenticated attackers can manipulate request parameters to create/modify listings under arbitrary user accounts. Combined with insufficient input sanitization, this allows **Stored Cross-Site Scripting (XSS)** attacks via crafted listing names. Successful exploitation leads to unauthorized data manipulation and client-side code execution when victims view affected listings in the calendar interface.
@@ -34,7 +34,7 @@ _csrf=TOKEN&id=&spgLsOwner=VICTIM_ID&spgLsTitle=<img+src=x+onerror=alert(1)>...
 - Keep `id` empty (creates new) or specify existing listing ID
 
 ### 4️⃣ **Inject XSS**
-Malicious `spgLsTitle` payload:
+- Malicious `spgLsTitle` payload:
 ```
 <img src=x onerror=alert(1)>
 ```
