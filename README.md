@@ -14,10 +14,12 @@
 ## Chained IDOR and Stored XSS Vulnerability
 
 ## 📜 Description
-**Summer Pearl Group's Vacation Rental Management Platform** versions prior to **1.0.1** suffer from an **Insecure Direct Object reference (IDOR)** vulnerability in the listing management functionality. Authenticated attackers can manipulate request parameters to create/modify listings under arbitrary user accounts. Combined with insufficient input sanitization, this allows **Stored Cross-Site Scripting (XSS)** attacks via crafted listing names. Successful exploitation leads to unauthorized data manipulation and client-side code execution when victims view affected listings in the calendar interface.
+**Summer Pearl Group's Vacation Rental Management Platform** versions prior to **1.0.2** suffer from an **Insecure Direct Object Reference (IDOR)** vulnerability in the listing management functionality. Authenticated attackers can manipulate request parameters to create/modify listings under arbitrary user accounts. Combined with insufficient input sanitization, this allows **Stored Cross-Site Scripting (XSS)** attacks via crafted listing names. Successful exploitation leads to unauthorized data manipulation and client-side code execution when victims view affected listings in the calendar interface.
 
-## 📌 Affected Version
-- Vacation Rental Management Platform v1.0.0
+## 📦 Version Information
+- **Affected:** ≤ v1.0.1  
+- **Fixed:** v1.0.2
+
 
 ## ⚠️ Disclaimer
 This project is intended for **educational and ethical research purposes only**. Unauthorized testing on systems without explicit permission is illegal. Use responsibly and only on systems you own or have permission to test.
@@ -52,7 +54,7 @@ _csrf=TOKEN&id=&spgLsOwner=VICTIM_ID&spgLsTitle=<img+src=x+onerror=alert(1)>...
 ```
 
 ### 5️⃣ **Trigger exploit**
-- Victim views calendar → XSS executes automatically
+- The vulnerability is triggered when a victim accesses the calendar view, causing the injected XSS payload to execute automatically in their browser.
 
 ## Notes
 - Test with non-destructive payloads first
