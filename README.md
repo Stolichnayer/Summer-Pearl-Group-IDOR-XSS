@@ -1,4 +1,16 @@
-# Summer Pearl Group - Vacation Rental Management Platform Vulnerability
+<table>
+  <tr>
+    <td width="150">
+      <img src="logo.png" alt="Summer Pearl Logo" width="120"/>
+    </td>
+    <td>
+      <h1>Summer Pearl Group</h1>
+      <h3>Vacation Rental Management Platform Vulnerability</h3>
+    </td>
+  </tr>
+</table>
+
+
 ## Chained IDOR and Stored XSS Vulnerability
 
 ## 📜 Description
