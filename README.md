@@ -21,7 +21,7 @@
 | Status       | Version         |
 |--------------|-----------------|
 | 🔴 Vulnerable | ≤ `v1.0.1`     |
-| 🟢  Fixed     | `v1.0.2`        |
+| 🟢  Fixed     | &nbsp;&nbsp;&nbsp; `v1.0.2`        |
 
 ## ⚠️ Disclaimer
 This project is intended for **educational and ethical research purposes only**. Unauthorized testing on systems without explicit permission is illegal. Use responsibly and only on systems you own or have permission to test.
