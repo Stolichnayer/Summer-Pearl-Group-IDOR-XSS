@@ -1,15 +1,30 @@
 <table>
   <tr>
-    <td width="150">
-      <img src="logo.png" alt="Summer Pearl Logo" width="120"/>
+    <td width="150" rowspan="2">
+      <a href="https://summerpearlgroup.gr" target="_blank">
+        <img src="logo.png" alt="Summer Pearl Logo" width="120"/>
+      </a>
     </td>
     <td>
       <h1>Summer Pearl Group</h1>
       <h3>Vacation Rental Management Platform Vulnerability</h3>
     </td>
   </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>
+            🌐 <a href="https://summerpearlgroup.gr" target="_blank">Main Site</span></a>
+          </td>
+          <td style="padding-left: 15px;">
+            🚀 <a href="https://summerpearlgroup.gr/releases" target="_blank">Releases</span></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
-
 
 ## Chained IDOR and Stored XSS Vulnerability
 
