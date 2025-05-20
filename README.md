@@ -18,7 +18,7 @@
             🌐 <a href="https://summerpearlgroup.gr" target="_blank">Main Site</span></a>
           </td>
           <td style="padding-left: 15px;">
-            🚀 <a href="https://summerpearlgroup.gr/releases" target="_blank">Release Notes</span></a>
+            🚀 <a href="https://summerpearlgroup.gr/spgpm/releases" target="_blank">Release Notes</span></a>
           </td>
         </tr>
       </table>
