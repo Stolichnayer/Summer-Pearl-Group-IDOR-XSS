@@ -89,4 +89,5 @@ The vulnerability was discovered by **Alex Perrakis (Stolichnayer)**.
 ## 🔗 **References:**
 - [Summer Pearl Group](https://summerpearlgroup.gr/spgpm/portal)
 - [Vacation Rental Management Platform](https://summerpearlgroup.gr/spgpm/login)
+- [Release v1.0.2 Notes (Patch)](https://summerpearlgroup.gr/spgpm/releases)
 
